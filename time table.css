@@ -1,0 +1,40 @@
+ h1{
+    font-weight:bold;
+    text-align:center;
+}
+#sub1{
+    color:blue;
+}
+#sub2{
+    color:violet;
+    text-align: center;
+}
+#sub3{
+    color:darkmagenta;
+}
+#sub4{
+    color:darkgreen;
+}
+#sub5{
+    color:darkorange;
+}
+#sub6{
+    color:lightcoral;
+}
+#sub7{
+    color:darkolivegreen;
+}
+#hobby{
+    color:darkred;
+}
+.time{
+    background-color: azure;
+}
+.days{
+    background-color: green;
+}
+
+#lunch{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <!-- Student Details -->
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName"><br><br>
+
+        <label for="mobileNo">Mobile No:</label>
+        <input type="text" id="mobileNo" name="mobileNo"><br><br>
+
+        <label for="emailId">Email Id:</label>
+        <input type="email" id="emailId" name="emailId"><br><br>
+
+        <label for="fatherName">Father Name:</label>
+        <input type="text" id="fatherName" name="fatherName"><br><br>
+
+        <label for="motherName">Mother Name:</label>
+        <input type="text" id="motherName" name="motherName"><br><br>
+
+        <!-- Course Selection -->
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="">--Select--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+        </select><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Photo Upload -->
+        <label for="photo">Student Photo:</label>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <!-- Branch Selection -->
+        <label>Select Branch:</label><br>
+        <input type="checkbox" id="cse" name="branch" value="CSE">
+        <label for="cse">CSE</label><br>
+        <input type="checkbox" id="it" name="branch" value="IT">
+        <label for="it">IT</label><br>
+        <input type="checkbox" id="ece" name="branch" value="ECE">
+        <label for="ece">ECE</label><br>
+        <input type="checkbox" id="civil" name="branch" value="Civil">
+        <label for="civil">Civil</label><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
