@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Table Creation</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>Roll number</th>
+<th>Name</th>
+</tr>
+<tr>
+<td>100</td>
+<td>Harini</td>
+</tr>
+</table>
+</body>
+</html>
