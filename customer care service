@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Service Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Customer Service Feedback Form</h2>
+  <h3>CONNECT SPHERE</h3>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <p>Please rate each question on a scale of 1 to 5, with 5 being excellent and 1 being poor.</p>
+
+    <fieldset>
+      <legend>How satisfied are you with the support you received?</legend>
+      <label><input type="radio" name="support" value="5"> 5</label>
+      <label><input type="radio" name="support" value="4"> 4</label>
+      <label><input type="radio" name="support" value="3"> 3</label>
+      <label><input type="radio" name="support" value="2"> 2</label>
+      <label><input type="radio" name="support" value="1"> 1</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How would you rate the promptness of our response?</legend>
+      <label><input type="radio" name="promptness" value="5"> 5</label>
+      <label><input type="radio" name="promptness" value="4"> 4</label>
+      <label><input type="radio" name="promptness" value="3"> 3</label>
+      <label><input type="radio" name="promptness" value="2"> 2</label>
+      <label><input type="radio" name="promptness" value="1"> 1</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How would you rate the professionalism of our team?</legend>
+      <label><input type="radio" name="professionalism" value="5"> 5</label>
+      <label><input type="radio" name="professionalism" value="4"> 4</label>
+      <label><input type="radio" name="professionalism" value="3"> 3</label>
+      <label><input type="radio" name="professionalism" value="2"> 2</label>
+      <label><input type="radio" name="professionalism" value="1"> 1</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How would you rate our ability to meet your expectations?</legend>
+      <label><input type="radio" name="expectations" value="5"> 5</label>
+      <label><input type="radio" name="expectations" value="4"> 4</label>
+      <label><input type="radio" name="expectations" value="3"> 3</label>
+      <label><input type="radio" name="expectations" value="2"> 2</label>
+      <label><input type="radio" name="expectations" value="1"> 1</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How would you rate your overall experience?</legend>
+      <label><input type="radio" name="experience" value="5"> 5</label>
+      <label><input type="radio" name="experience" value="4"> 4</label>
+      <label><input type="radio" name="experience" value="3"> 3</label>
+      <label><input type="radio" name="experience" value="2"> 2</label>
+      <label><input type="radio" name="experience" value="1"> 1</label>
+    </fieldset>
+
+    <label for="feedback">Do you have any additional feedback or suggestions?</label>
+    <textarea id="feedback" name="feedback"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
