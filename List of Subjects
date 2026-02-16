@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>List of subjects</title>
+</head>
+<body>
+<h1>Subject Name</h1>
+<ol>
+<li>FWD</li>
+<li>DSA</li>
+</ol>
+</body>
+</html>
